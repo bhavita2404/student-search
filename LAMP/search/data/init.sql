@@ -1,0 +1,11 @@
+CREATE DATABASE test;
+
+use test;
+
+CREATE TABLE users (
+	rollno INT(10) UNSIGNED  PRIMARY KEY, 
+	name VARCHAR(30) NOT NULL,
+	prog VARCHAR(50) NOT NULL,
+	dept VARCHAR(50) NOT NULL,
+	date TIMESTAMP
+);
